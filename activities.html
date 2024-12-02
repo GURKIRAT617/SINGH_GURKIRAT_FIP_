@@ -7,19 +7,32 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="/images/CR Logo.png" alt="Couples Resort Logo">
-            <span>Couples Resort</span>
-        </div>
-        <div class="menu-icon">
-            <span>☰</span>
+    <header class="grid-con" id="main-header">
+        <nav id="main-nav" class="col-span-full">
+            <h2 class="hidden">menu</h2>
+            <input type="checkbox" id="hamburger">
+            <label for="hamburger">
+            <img src="/images/burger.svg" alt="hamburger menu icon">
+            </label>
+            <div id="burger-con">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Rooms</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="room.html">Dining</a></li>
+                    <li><a href="spa.html">Spa Activites</a></li>
+                    <li><a href="#">Reservations</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="logo" class="col-span-full">
+            <img src="/images/Group 48.png" alt="Couples Resort Logo">
         </div>
     </header>
     <main>
         <!-- Hero Section -->
         <section class="hero">
-            <h1>ALL INCLUSIVE PACKAGE IN ALL PRICES ON-LINE</h1>
+            <h1><input type="checkbox"><span>ALL INCLUSIVE PACKAGE IN ALL PRICES ON-LINE</span></h1>
             <div class="slideshow">
                 <img src="/images/photo 1.jpg" alt="Resort View 1">
             </div>
